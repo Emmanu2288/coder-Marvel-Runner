@@ -1,0 +1,309 @@
+* { 
+margin: 0;
+padding: 0;
+}
+/* Fuente */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+/* Fondo del header */
+header {
+   font-family: 'Bangers', cursive;
+}
+/* Color de fondo */
+body {
+    font-family: 'Bangers', cursive;
+    background-color: #ffffff;
+    margin: 0 32px;
+    padding: 20px;
+    
+}
+
+/* Sacar el estilo a la nav */
+li {
+    list-style: none;
+    padding: 10px;
+    
+}
+
+/* Nav Bar */
+  .bg-navbar-mr {
+    background-color: #16225ef2;
+    padding: 10px;
+    font-family: 'Bangers', cursive;    
+  }
+  .bg-navbar-mr a {
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  /* logo */
+  .bg-navbar-mr img {
+    width: 100px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+/* contenedor index */
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.container img {
+    width: 50%;
+}
+
+.container p {
+    font-size: 30px;
+    
+}
+/* fotos de camisetas */
+.fotos {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #000000;
+    transition: transform 0.2s ease;
+        
+}
+
+.fotos:hover {
+    transform: scale(1.05);
+}
+.container-fluid p {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(50, 50, 163);
+}
+
+.container-fluid h3 {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(166, 26, 56);
+    margin-top: 20px;
+}
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+.catalogo img {
+  width: 100%;
+}
+.categorias {
+  flex: 1 1 300px;
+  max-width: 400px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px #ccc;
+  transition: transform 0.2s ease;
+}
+
+.categorias:hover {
+  transform: scale(1.02);
+}
+
+.categorias h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.categorias p {
+   margin-bottom: 10px;
+   font-size: 18px;
+}
+
+
+/* Media Queries Mobile */
+
+@media (max-width: 430px) {
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  gap: 15px;
+}
+
+.container img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.container p {
+  font-size: 10px;
+  text-align: center;
+  padding: 0 12px;
+}
+
+.nav-link a {
+    font-size: 14px;
+} 
+
+h1.titulos {
+    font-size: 18px;
+}
+
+.container-fluid h2 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+.container-fluid p {
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(50, 50, 163);
+}
+
+.container-fluid h3 {
+    font-size: 12px;
+    text-align: center;
+    color: rgb(166, 26, 56);
+    margin-top: 20px;
+}
+
+}
+
+/* Media Queries Tablets */
+@media (min-width: 430px) and (max-width: 768px) {
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .container img {
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .container p {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .catalogo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-link a {
+    font-size: 16px;
+  }
+  
+  h1.titulos {
+    font-size: 30px;
+  }
+
+
+.container-fluid h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+.container-fluid p {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(50, 50, 163);
+}
+
+.container-fluid h3 {
+    font-size: 22px;
+    text-align: center;
+    color: rgb(166, 26, 56);
+    margin-top: 20px;
+}
+
+  footer p {
+    font-size: 14px;
+  }
+
+}
+
+/* Titulos */
+h1 {
+    color: rgb(10, 10, 70);
+    font-size: 40px;
+    text-align: center;
+    padding: 8px 16px 20px 14px;
+}
+/* Subtitulos */
+h2 {
+    color: rgb(10, 10, 70);
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: rgb(166, 26, 56);
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h4 {
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(2, 58, 86);
+}
+
+/* Parrafos */
+p {
+    color: rgb(3, 2, 1);
+    font-size: 24px;
+    margin: 8px 16px 20px 14px;
+}
+
+.mail {
+    color: rgb(8, 192, 106);
+}
+
+/* fondo del footer */
+footer {
+    background-color: #16225ef2;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Bangers', cursive;
+}
+/* color del texto del footer */
+.footer {
+    color: seashell;
+}
+/* Subrrallado de h1 y h2 */
+.titulos {
+    text-decoration: underline;
+}
