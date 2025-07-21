@@ -1,84 +1,531 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap --> 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <!-- Css -->
-    <link rel="stylesheet" href="../styles/style.css">
-    <title>Marvel-Runner - Productos</title>
-  </head>
- <body>
-          <header>
-          <nav class="navbar navbar-expand-lg bg-navbar-mr">
-            <div class="container-fluid">           
-             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-             </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-             <li class="nav-item">
-             <a class="nav-link" href="../index.html">Inicio</a>
-             </li>
-             <li class="nav-item">
-             <a class="nav-link" href="#">Productos</a>
-             </li>
-              <li class="nav-item">
-             <a class="nav-link" href="categorias.html">Categorias</a>
-             </li>
-              <li class="nav-item">
-             <a class="nav-link" href="nosotros.html">Sobre Nosotros</a>
-             </li>
-              <li class="nav-item">
-             <a class="nav-link" href="contacto.html">Contacto</a>
-             </li>
-             </ul>
-             <img class="row justify-content-md-center" src="../assets/Icon/MR2 - sin fondo.png" alt="Logo de Marvel-Runner">
-            </div>
-           </div>          
-          </nav>
-         </header>
-    
-    <main>
-          
-       <h1 class="titulos">Productos</h1>
-       <p>¡Desata tu poder interior con nuestra indumentaria de superheroes!. Cada prenda está diseñada para ofrecerte el máximo confort y rendimiento en cada carrera. Desde remeras técnicas hasta shorts de alta calidad, tenemos todo lo que necesitas para llevar tu entrenamiento al siguiente nivel.</p>
-       <p>Con nuestras remeras y shorts de running, cada carrera se convierte en una aventura épica.</p>
-     
-       <section class="container-fluid">
-        <!-- Manga largas con Imagen -->
-        <div class="row">
-          <article class="col-12 col-md-4">
-          <h2 class="titulos">Remeras Mangas Largas</h2>
-          <img class="fotos" src="../assets/Img/Remera manga larga.png" alt="Remeras mangas largas">
-          <h4>¡Corre como un verdadero superhéroe con nuestras remeras de mangas largas!</h4>
-          <p>Estas remeras están diseñadas para ofrecerte la máxima comodidad y transpirabilidad, permitiéndote rendir al máximo en cada carrera.</p>
-         </article>
 
-        <!-- Manga cortas con Imagen -->
-         <article class="col-12 col-md-4">
-          <h2 class="titulos">Remeras mangas cortas</h2>
-          <img class="fotos" src="../assets/Img/Imagen de Remera.png" alt="Remeras mangas cortas">
-          <h4>Ganar en cada competencia será INEVITABLE</h4>
-          <p> Diseños de última moda, con tecnología de secado rápido y tejidos ligeros que te mantendrán fresco y cómodo durante tus entrenamientos.</p>
-         </article>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <!-- Css -->
+  <link rel="stylesheet" href="../styles/style.css">
+  <title>Marvel-Runner - Productos</title>
+</head>
 
-        <!-- Short con imagen -->
-         <article class="col-12 col-md-4">
-         <h2 class="titulos">Shorts</h2>
-          <img class="fotos" src="../assets/Img/Shorts.png" alt="Shorts">
-          <h4>Fuertes,comodos y resistentes como los de Hulk.</h4> 
-          <p>Shorts fuertes y resistentes que te brindan la libertad de movimiento que necesitas para superar tus límites. Confeccionados con materiales de alta calidad, estos shorts son perfectos para cualquier tipo de entrenamiento.</p>
-         </article>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-navbar-mr">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categorias.html">Categorias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <img class="row justify-content-md-center" src="../assets/Icon/MR2 - sin fondo.png"
+            alt="Logo de Marvel-Runner">
         </div>
-      </section>
-    </main>
-  
-   <footer>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <h1 class="titulos">Productos</h1>
+    <p>¡Desata tu poder interior con nuestra indumentaria de superheroes!. Cada prenda está diseñada para ofrecerte el
+      máximo confort y rendimiento en cada carrera. Desde remeras técnicas hasta shorts de alta calidad, tenemos todo lo
+      que necesitas para llevar tu entrenamiento al siguiente nivel.</p>
+    <p>Con nuestras remeras y shorts de running, cada carrera se convierte en una aventura épica.</p>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Remera Thor MC.png" class="card-img-top" alt="Remera Thor">
+          <div class="card-body">
+            <h5 class="card-title">Thor</h5>
+            <p class="card-text">Remera manga corta con diseño inspirado en Thor, el dios del trueno. Hecha de material
+              técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$70.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Camiseta Fenix MC.png" class="card-img-top" alt="Remera Fenix">
+          <div class="card-body">
+            <h5 class="card-title">Fenix</h5>
+            <div class="card-img-overlay">
+              <h5 class="card-title">OFERTA</h5>
+            </div>
+            <p class="card-text">Remera manga corta con diseño inspirado en Fenix! Hecha de material técnico ligero y
+              transpirable, perfecta para mantenerte fresco durante tus carreras.</p>
+            <p class="text-decoration-line-through">$70.000</p>
+            <p>$60.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Camiseta Hawkeye.png" class="card-img-top" alt="Remera Hawkeye">
+          <div class="card-body">
+            <h5 class="card-title">Hawkeye</h5>
+            <div class="card-img-overlay">
+              <h5 class="card-title">OFERTA</h5>
+            </div>
+            <p class="card-text">Remera manga corta con diseño inspirado en Hawkeye, el maestro arquero. Hecha de
+              material técnico que absorbe la humedad</p>
+            <p class="text-decoration-line-through">$70.000</p>
+            <p>$60.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/camiseta escarlata MC.png" class="card-img-top" alt="Remera Bruja Escarlata">
+          <div class="card-body">
+            <h5 class="card-title">Bruja Escarlata</h5>
+            <p class="card-text">
+              Remera manga corta con diseño inspirado en la Bruja Escarlata. Hecha de material técnico que absorbe la
+              humedad</p>
+            <p>$70.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Camiseta Hulk MC.png" class="card-img-top" alt="Remera Hulk">
+          <div class="card-body">
+            <h5 class="card-title">Hulk</h5>
+            <p class="card-text">Remera manga corta con diseño inspirado en Hulk, el gigante esmeralda. Hecha de
+              material técnico que absorbe la humedad.</p>
+            <p>$70.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Camiseta Punisher MC.png" class="card-img-top" alt="Remera Punisher">
+          <div class="card-body">
+            <h5 class="card-title">Punisher</h5>
+            <p class="card-text">Remera manga corta con diseño inspirado en Punisher, el justiciero. Hecha de material
+              técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$70.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Camiseta Black Widow MC.png" class="card-img-top" alt="Remera Black Widow">
+          <div class="card-body">
+            <h5 class="card-title">Black Widow</h5>
+            <p class="card-text">Remera manga corta con diseño inspirado en Black Widow, la espía letal. Hecha de
+              material técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$70.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Camiseta Doctor Strange MC.png" class="card-img-top" alt="Remera Doctor Strange">
+          <div class="card-body">
+            <h5 class="card-title">Doctor Strange</h5>
+            <p class="card-text">Remera manga corta con diseño inspirado en Doctor Strange, el hechicero supremo. Hecha
+              de material técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$70.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/camiseta Groot MC.png" class="card-img-top" alt="Remera Groot">
+          <div class="card-body">
+            <h5 class="card-title">Thor</h5>
+            <p class="card-text">Remera manga corta con diseño inspirado en Groot, Yo soy GROOT. Hecha de material
+              técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$70.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Camiseta Iron Fist MC.png" class="card-img-top" alt="Remera Iron Fist">
+          <div class="card-body">
+            <h5 class="card-title">Iron Fist</h5>
+            <p class="card-text">Remera manga corta con diseño inspirado en Iron Fist, el maestro del kung-fu. Hecha de
+              material técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$70.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Camiseta Moon Knight MC.png" class="card-img-top" alt="Remera Moon Knight">
+          <div class="card-body">
+            <h5 class="card-title">Moon Knight</h5>
+            <p class="card-text">Remera manga corta con diseño inspirado en Moon Knight, el caballero de la luna. Hecha
+              de material técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$70.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Camiseta Capitana Marvel MC.png" class="card-img-top" alt="Remera Capitana Marvel">
+          <div class="card-body">
+            <h5 class="card-title">Capitana Marvel</h5>
+            <p class="card-text">Remera manga corta con diseño inspirado en Capitana Marvel, la heroína más poderosa del
+              universo. Hecha de material técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$70.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Camiseta Wolverine MC.png" class="card-img-top" alt="Remera Wolverine">
+          <div class="card-body">
+            <h5 class="card-title">Wolverine</h5>
+            <p class="card-text">Remera manga corta con diseño inspirado en Wolverine, el mutante más feroz. Hecha de
+              material técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$70.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Camiseta Capitan America MC.png" class="card-img-top" alt="Remera Capitan America">
+          <div class="card-body">
+            <h5 class="card-title">Capitan America</h5>
+            <p class="card-text">Remera manga corta con diseño inspirado en Capitan America, el líder de los Vengadores.
+              Hecha de material técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$70.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Camiseta Venom MC.png" class="card-img-top" alt="Camiseta Venom">
+          <div class="card-body">
+            <h5 class="card-title">Venom</h5>
+            <p class="card-text">Remera manga corta con diseño inspirado en Venom, el simbiótico más temido. Hecha de
+              material técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$70.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Camiseta Black Widow ML.png" class="card-img-top" alt="Camiseta Black Widow ML">
+          <div class="card-body">
+            <h5 class="card-title">Mangas Largas Black Widow</h5>
+            <p class="card-text">Remera mangas largas con diseño inspirado en Black Widow, la espía letal. Hecha de
+              material técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$90.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Camiseta Doctor Strange ML.png" class="card-img-top" alt="Camiseta Doctor Strange ML">
+          <div class="card-body">
+            <h5 class="card-title">Mangas Largas Doctor Strange</h5>
+            <p class="card-text">Remera mangas largas con diseño inspirado en Doctor Strange, el hechicero supremo.
+              Hecha de material técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$90.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Camiseta Capitana Marvel ML.png" class="card-img-top" alt="Camiseta Capitana Marvel ML">
+          <div class="card-body">
+            <h5 class="card-title">Mangas Largas Capitana Marvel</h5>
+            <p class="card-text">Remera mangas largas con diseño inspirado en Capitana Marvel, la heroína más poderosa
+              del universo. Hecha de material técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$90.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Camiseta Capitan America ML.png" class="card-img-top" alt="Camiseta Capitan America ML">
+          <div class="card-body">
+            <h5 class="card-title">Mangas Largas Capitan America</h5>
+            <p class="card-text">Remera mangas largas con diseño inspirado en Capitan America, el líder de los
+              Vengadores. Hecha de material técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$90.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Camiseta Iron Fist ML.png" class="card-img-top" alt="Camiseta Iron Fist ML">
+          <div class="card-body">
+            <h5 class="card-title">Mangas Largas Iron Fist</h5>
+            <div class="card-img-overlay">
+              <h5 class="card-title">OFERTA</h5>
+            </div>
+            <p class="card-text">Remera mangas largas con diseño inspirado en Iron Fist, el maestro del kung-fu. Hecha
+              de material técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p class="text-decoration-line-through">$90.000</p>
+            <p>$75.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Camiseta Moon Knight ML.png" class="card-img-top" alt="Camiseta Moon Knight ML">
+          <div class="card-body">
+            <h5 class="card-title">Mangas Largas Moon Knight</h5>
+            <p class="card-text">Remera mangas largas con diseño inspirado en Moon Knight, el caballero de la luna.
+              Hecha de material técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$90.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Short Black Widow.png" class="card-img-top" alt="Short Black Widow">
+          <div class="card-body">
+            <h5 class="card-title">Short Black Widow</h5>
+            <p class="card-text">Short con diseño inspirado en Black Widow, la espía letal. Hecho de material técnico
+              que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$50.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Short Capitana Marvel.png" class="card-img-top" alt="Short Capitana Marvel">
+          <div class="card-body">
+            <h5 class="card-title">Short Capitana Marvel</h5>
+            <p class="card-text">Short con diseño inspirado en Capitana Marvel, la heroína más poderosa del universo.
+              Hecho de material técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$50.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Short Hawkeye.png" class="card-img-top" alt="Short Hawkeye">
+          <div class="card-body">
+            <h5 class="card-title">Short Hawkeye</h5>
+            <p class="card-text">Short con diseño inspirado en Hawkeye, el maestro arquero. Hecho de material técnico
+              que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$50.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Short Iron Fist.png" class="card-img-top" alt="Short Iron Fist">
+          <div class="card-body">
+            <h5 class="card-title">Short Iron Fist</h5>
+            <p class="card-text">Short con diseño inspirado en Iron Fist, el maestro del kung-fu. Hecho de material
+              técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$50.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Short Moon Knight.png" class="card-img-top" alt="Short Moon Knight">
+          <div class="card-body">
+            <h5 class="card-title">Short Moon Knight</h5>
+            <p class="card-text">Short con diseño inspirado en Moon Knight, el caballero de la luna. Hecho de material
+              técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$50.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Short Capitan America.png" class="card-img-top" alt="Short Capitan America">
+          <div class="card-body">
+            <h5 class="card-title">Short Capitan America</h5>
+            <p class="card-text">Short con diseño inspirado en Capitan America, el líder de los Vengadores. Hecho de
+              material técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$50.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Short Punisher.png" class="card-img-top" alt="Short Punisher">
+          <div class="card-body">
+            <h5 class="card-title">Short Punisher</h5>
+            <p class="card-text">Short con diseño inspirado en Punisher, el justiciero. Hecho de material técnico que
+              absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$50.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Shorts Doctor Strange.png" class="card-img-top" alt="Shorts Doctor Strange">
+          <div class="card-body">
+            <h5 class="card-title">Short Doctor Strange</h5>
+            <p class="card-text">Short con diseño inspirado en Doctor Strange, el hechicero supremo. Hecho de material
+              técnico que absorbe la humedad, ideal para tus carreras más intensas.</p>
+            <p>$50.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Conjunto Black Widow.png" class="card-img-top" alt="Conjunto Black Widow">
+          <div class="card-body">
+            <h5 class="card-title">Conjunto Black Widow</h5>
+            <p class="card-text">Conjunto con diseño inspirado en Black Widow, la espía letal. Hecho de material técnico que absorbe la
+              humedad, ideal para tus carreras más intensas.</p>
+            <p>$120.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Conjunto Capitan America.png" class="card-img-top" alt="Conjunto Capitan America">
+          <div class="card-body">
+            <h5 class="card-title">Conjunto Capitan America</h5>
+            <p class="card-text">Conjunto con diseño inspirado en Capitan America, el líder de los Vengadores. Hecho de material técnico que absorbe la
+              humedad, ideal para tus carreras más intensas.</p>
+            <p>$140.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Conjunto Capitana Marvel.png" class="card-img-top" alt="Conjunto Capitana Marvel">
+          <div class="card-body">
+            <h5 class="card-title">Conjunto Capitana Marvel</h5>
+            <p class="card-text">Conjunto con diseño inspirado en Capitana Marvel, la heroína más poderosa del universo. Hecho de material técnico que absorbe la
+              humedad, ideal para tus carreras más intensas.</p>
+            <p>$120.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Conjunto Doctor Strange.png" class="card-img-top" alt="Conjunto Doctor Strange">
+          <div class="card-body">
+            <h5 class="card-title">Conjunto Doctor Strange</h5>
+            <p class="card-text">Conjunto con diseño inspirado en Doctor Strange, el hechicero supremo. Hecho de material técnico que absorbe la
+              humedad, ideal para tus carreras más intensas.</p>
+            <p>$140.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Conjunto Hawkeye.png" class="card-img-top" alt="Conjunto Hawkeye">
+          <div class="card-body">
+            <h5 class="card-title">Conjunto Hawkeye</h5>
+            <p class="card-text">Conjunto con diseño inspirado en Hawkeye, el maestro arquero. Hecho de material técnico que absorbe la
+              humedad, ideal para tus carreras más intensas.</p>
+            <p>$120.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Conjunto Iron Fist.png" class="card-img-top" alt="Conjunto Iron Fist">
+          <div class="card-body">
+            <h5 class="card-title">Conjunto Iron Fist</h5>
+            <p class="card-text">Conjunto con diseño inspirado en Iron Fist, el maestro del kung-fu. Hecho de material técnico que absorbe la
+              humedad, ideal para tus carreras más intensas.</p>
+            <p>$140.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Conjunto Moon knight.png" class="card-img-top" alt="Conjunto Moon Knight">
+          <div class="card-body">
+            <h5 class="card-title">Conjunto Moon Knight</h5>
+            <p class="card-text">Conjunto con diseño inspirado en Moon Knight, el caballero de la luna. Hecho de material técnico que absorbe la
+              humedad, ideal para tus carreras más intensas.</p>
+            <p>$140.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/Img/Conjunto Thor.png" class="card-img-top" alt="Conjunto Thor">
+          <div class="card-body">
+            <h5 class="card-title">Conjunto Thor</h5>
+            <div class="card-img-overlay">
+              <h5 class="card-title">OFERTA</h5>
+            </div>
+            <p class="card-text">Conjunto con diseño inspirado en Thor, el dios del trueno. Hecho de material técnico que absorbe la
+              humedad, ideal para tus carreras más intensas.</p>
+            <p class="text-decoration-line-through">$120.000</p>
+            <p>$100.000</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
     <p class="footer">&copy; 2025. Marvel-Runner. Todos los derechos reservados. Instagram: @M-R - X: @M-R</p>
-   </footer>
-   <!-- Bootstrap JS -->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-  </body>
+  </footer>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

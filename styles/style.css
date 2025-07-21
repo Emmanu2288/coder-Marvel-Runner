@@ -78,6 +78,12 @@ li {
     transform: scale(1.05);
 }
 
+.offer{
+  width: 100%;
+  height: auto;
+}
+
+
 /* contenedor fluid */
 .container-fluid p {
     font-size: 25px;
@@ -92,16 +98,7 @@ li {
     color: rgb(166, 26, 56);
     margin-top: 20px;
 }
-.catalogo {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  padding: 20px;
-}
-.catalogo img {
-  width: 100%;
-}
+
 .categorias {
   flex: 1 1 300px;
   max-width: 400px;
