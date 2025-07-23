@@ -1,0 +1,32 @@
+@use "../utilities/variables";
+
+.bg-navbar-mr {
+    background-color: variables.$fondo-color;
+
+    .logo {
+        width: 100px;
+        
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 18px;
+        margin-left: 30px;
+
+        li {
+            padding: 15px;
+
+            a {
+                font-family: variables.$font;
+                color: whitesmoke;
+
+            }
+
+
+
+        }
+    }
+}

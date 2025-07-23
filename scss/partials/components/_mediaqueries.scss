@@ -1,0 +1,142 @@
+@media (max-width: 430px) {
+
+
+    .bg-navbar-mr {
+            ul {
+                margin-left: 0;
+                flex-direction: column;
+                align-items: center;
+    
+                li {
+                    padding: 10px;
+                    text-align: center;
+    
+                    a {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    
+        .my-row {
+            .carousel {
+                width: 100%;
+                .img-carousel {
+                    height: 30vh;
+                }
+            }
+        }
+    
+        .card-title-offer{
+            font-size: 20px;
+            text-align: end;
+        }
+        .card-title-new {
+            font-size: 25px;
+            text-align: center;
+        }
+        .card-text-new {
+            font-size: 20px;
+            text-align: center;
+        }
+        .card-title {
+            font-size: 25px;
+            text-align: center;
+        }
+        .card-text {
+            font-size: 20px;
+            text-align: center;
+        }
+    
+    }
+    .container-products {
+        flex-direction: column;
+        align-items: center;
+    
+        .container-product {
+            width: 100%;
+            margin-bottom: 20px;
+    
+            .img-product {
+                height: 200px;
+            }
+        }
+    }
+    
+    h1, h2, h3, h5 {
+        font-size: 10px;
+        text-align: center;
+    }
+    p {
+        font-size: 7px;
+    }
+
+    @media (min-width: 430px) and (max-width: 768px) {
+        .bg-navbar-mr {
+            ul {
+                margin-left: 0;
+                flex-direction: row;
+                justify-content: center;
+    
+                li {
+                    padding: 10px;
+                    text-align: center;
+    
+                    a {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    
+        .my-row {
+            .carousel {
+                width: 80%;
+                .img-carousel {
+                    height: 35vh;
+                }
+            }
+        }
+    
+        .card-title-offer{
+            font-size: 30px;
+            text-align: end;
+        }
+        .card-title-new {
+            font-size: 35px;
+            text-align: center;
+        }
+        .card-text-new {
+            font-size: 30px;
+            text-align: center;
+        }
+        .card-title {
+            font-size: 35px;
+            text-align: center;
+        }
+        .card-text {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+    .container-products {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+        .container-product {
+            width: 45%;
+            margin: 10px;
+    
+            .img-product {
+                height: 250px;
+            }
+        }
+    }
+    h1, h2, h3, h5 {
+        font-size: 30px;
+        text-align: center;
+    }
+    p {
+        font-size: 20px;
+    }

@@ -1,301 +1,374 @@
-* { 
-margin: 0;
-padding: 0;
-}
-/* Fuente */
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-
-/* Fondo del header */
-header {
-   font-family: 'Bangers', cursive;
-}
-/* Color de fondo */
-body {
-    font-family: 'Bangers', cursive;
-    background-color: #ffffff;
-    margin: 0 32px;
-    padding: 20px;
-    
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 
-/* Sacar el estilo a la nav */
-li {
-    list-style: none;
-    padding: 10px;
-    
+.bg-navbar-mr {
+  background-color: rgba(22, 34, 94, 0.9490196078);
 }
-
-/* Nav Bar */
-  .bg-navbar-mr {
-    background-color: #16225ef2;
-    padding: 10px;
-    font-family: 'Bangers', cursive;    
-  }
-  .bg-navbar-mr a {
-    color: #ffffff;
-    font-size: 15px;
-    text-decoration: none;
-  }
-  /* logo */
-  .bg-navbar-mr img {
-    width: 100px;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-  }
-
-
-
-/* contenedor index */
-.container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 50px;
-    padding: 20px;
-    border: 1px solid black;
-    border-radius: 8px;
+.bg-navbar-mr .logo {
+  width: 100px;
 }
-.container img {
-    width: 50%;
-}
-
-
-/* fotos de camisetas */
-.fotos {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    border: 1px solid black;
-    border-radius: 8px;
-    box-shadow: 0 0 10px #000000;
-    transition: transform 0.2s ease;
-        
-}
-
-.fotos:hover {
-    transform: scale(1.05);
-}
-
-.offer{
-  width: 100%;
-  height: auto;
-}
-
-
-/* contenedor fluid */
-.container-fluid p {
-    font-size: 25px;
-    text-align: center;
-    padding: 10px;
-    color: rgb(50, 50, 163);
-}
-
-.container-fluid h3 {
-    font-size: 20px;
-    text-align: center;
-    color: rgb(166, 26, 56);
-    margin-top: 20px;
-}
-
-.categorias {
-  flex: 1 1 300px;
-  max-width: 400px;
-  background: #f0f0f0;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 0 10px #ccc;
-  transition: transform 0.2s ease;
-}
-
-.categorias:hover {
-  transform: scale(1.02);
-}
-
-.categorias h2 {
-  font-size: 25px;
-  margin-bottom: 10px;
-}
-
-.categorias p {
-   margin-bottom: 10px;
-   font-size: 18px;
-}
-
-
-/* Media Queries Mobile */
-
-@media (max-width: 430px) {
-
-.container {
+.bg-navbar-mr ul {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-left: 30px;
+}
+.bg-navbar-mr ul li {
   padding: 15px;
-  gap: 15px;
+}
+.bg-navbar-mr ul li a {
+  font-family: "Bangers", system-ui;
+  color: whitesmoke;
 }
 
-.container img {
-  width: 100%;
-  max-width: 300px;
-}
-
-.container p {
-  font-size: 10px;
-  text-align: center;
-  padding: 0 12px;
-}
-
-.nav-link a {
-    font-size: 14px;
-} 
-
-h1.titulos {
-    font-size: 18px;
-}
-
-.container-fluid h2 {
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-footer p {
-    font-size: 12px;
-}
-
-.container-fluid p {
-    font-size: 10px;
-    text-align: center;
-    padding: 10px;
-    color: rgb(50, 50, 163);
-}
-
-.container-fluid h3 {
-    font-size: 12px;
-    text-align: center;
-    color: rgb(166, 26, 56);
-    margin-top: 20px;
-}
-
-}
-
-/* Media Queries Tablets */
-@media (min-width: 430px) and (max-width: 768px) {
-
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 30px auto;
-    padding: 20px;
-    gap: 20px;
-  }
-
-  .container img {
-    width: 100%;
-    max-width: 380px;
-  }
-
-  .container p {
-    font-size: 18px;
-    text-align: center;
-    padding: 0 20px;
-  }
-
-  .catalogo {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .nav-link a {
-    font-size: 16px;
-  }
-  
-  h1.titulos {
-    font-size: 30px;
-  }
-
-
-.container-fluid h2 {
-    font-size: 25px;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-footer p {
-    font-size: 20px;
-}
-
-.container-fluid p {
-    font-size: 18px;
-    text-align: center;
-    padding: 10px;
-    color: rgb(50, 50, 163);
-}
-
-.container-fluid h3 {
-    font-size: 22px;
-    text-align: center;
-    color: rgb(166, 26, 56);
-    margin-top: 20px;
-}
-
-}
-
-/* Titulos */
 h1 {
-    color: rgb(10, 10, 70);
-    font-size: 40px;
-    text-align: center;
-    padding: 8px 16px 20px 14px;
+  font-size: 50px;
+  margin: 20px;
+  font-family: "Bangers", system-ui;
+  color: rgb(31, 51, 97);
+  text-align: center;
 }
-/* Subtitulos */
+
 h2 {
-    color: rgb(10, 10, 70);
-    font-size: 32px;
-    text-align: center;
-    margin-bottom: 15px;
+  font-family: "Bangers", system-ui;
+  color: rgb(31, 51, 97);
+  text-align: center;
+  font-size: 35px;
+  margin: 20px;
 }
 
 h3 {
-    color: rgb(166, 26, 56);
-    font-size: 28px;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-h4 {
-  margin-top: 10px;
+  font-family: "Bangers", system-ui;
+  color: rgb(31, 51, 97);
   text-align: center;
-  color: rgb(2, 58, 86);
 }
 
-/* Parrafos */
+h5 {
+  color: rgb(0, 0, 0);
+  font-family: "Bangers", system-ui;
+  text-align: center;
+  font-size: 25px;
+}
+
 p {
-    color: rgb(3, 2, 1);
-    font-size: 24px;
-    margin: 8px 16px 20px 14px;
+  color: rgb(25, 24, 24);
+  font-family: "Bangers", system-ui;
+  font-size: 25px;
+  margin: 10px;
+  padding: 8px;
 }
 
-.mail {
-    color: rgb(8, 192, 106);
+.contacto {
+  padding: 20px;
+  text-align: start;
+}
+.contacto h1 {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+.contacto h1 p {
+  margin: 10px 0;
 }
 
-/* fondo del footer */
+.card {
+  margin: 10px;
+}
+.card .card-img {
+  width: 100%;
+  height: 500px;
+}
+.card .card-title-offer {
+  font-family: "Bangers", system-ui;
+  color: rgba(255, 255, 255, 0.782);
+  text-decoration: underline;
+  font-size: 60px;
+  text-align: end;
+}
+.card .card-text-offer {
+  font-family: "Bangers", system-ui;
+  color: rgba(255, 255, 255, 0.782);
+  font-size: 40px;
+  text-align: end;
+}
+.card .card-title-new {
+  font-family: "Bangers", system-ui;
+  color: rgba(255, 255, 255, 0.782);
+  font-size: 60px;
+  text-align: center;
+}
+.card .card-text-new {
+  font-family: "Bangers", system-ui;
+  color: rgba(255, 255, 255, 0.782);
+  font-size: 40px;
+  margin-top: 100px;
+  text-align: center;
+}
+.card .card-title {
+  font-family: "Bangers", system-ui;
+  color: rgba(255, 255, 255, 0.782);
+  font-size: 60px;
+  margin-top: 100px;
+  text-align: center;
+}
+.card .card-text {
+  font-family: "Bangers", system-ui;
+  color: rgba(255, 255, 255, 0.782);
+  font-size: 40px;
+  text-align: center;
+}
+.card .card-offer {
+  font-family: "Bangers", system-ui;
+  color: rgba(255, 255, 255, 0.782);
+  font-size: 35px;
+  text-align: start;
+  margin-top: 2px;
+}
+
+.container-products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin-left: 10px;
+}
+.container-products .container-product {
+  border-radius: 2px;
+}
+.container-products .container-product .img-product, .container-products .container-product .card-product .img-offer {
+  width: 100%;
+  height: 300px;
+}
+.container-products .container-product .img-product:hover, .container-products .container-product .card-product .img-offer:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.container-products .container-product .card-product {
+  padding: 10px;
+  margin: 10px;
+}
+.container-products .container-product .card-product .card-text-product {
+  font-family: "Bangers", system-ui;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+.container-products .container-product .card-product .precio, .container-products .container-product .card-product .text-decoration-line-through {
+  color: rgb(19, 105, 105);
+  margin: 2px;
+  padding: 2px;
+}
+.nosotros {
+  width: 100%;
+  height: 70vh;
+  display: block;
+  margin: 0 auto;
+}
+.nosotros:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.mapa {
+  width: 100%;
+  height: 70vh;
+  display: block;
+  margin: 0 auto;
+}
+.mapa iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.img-medidas {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.button, .button-enviar, .button-offer {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 7px 14px;
+  background-color: rgb(19, 19, 72);
+  border-radius: 1px;
+}
+.button:hover, .button-enviar:hover, .button-offer:hover {
+  background-color: rgb(31, 51, 97);
+}
+
+.button-enviar {
+  background-color: rgb(19, 105, 105);
+}
+.button-enviar:hover {
+  background-color: rgb(2, 71, 192);
+}
+
+.my-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.my-row .carousel {
+  position: relative;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.my-row .carousel .img-carousel {
+  width: 100%;
+  height: 40vh;
+  display: block;
+}
+.my-row .carousel .arrow-prev, .my-row .carousel .arrow-next {
+  width: 5vh;
+  height: 5vh;
+}
+.my-row .carousel .arrow-prev:hover, .my-row .carousel .arrow-next:hover {
+  background-color: rgba(0, 0, 0, 0.201);
+}
 footer {
-    background-color: #16225ef2;
-    color: #ffffff;
-    text-align: center;
+  background-color: rgba(22, 34, 94, 0.9490196078);
+}
+footer p {
+  font-family: "Bangers", system-ui;
+  font-size: 25px;
+  color: aliceblue;
+  text-align: center;
+}
+
+@media (max-width: 430px) {
+  .bg-navbar-mr ul {
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bg-navbar-mr ul li {
     padding: 10px;
-    font-family: 'Bangers', cursive;
+    text-align: center;
+  }
+  .bg-navbar-mr ul li a {
+    font-size: 14px;
+  }
+  .my-row .carousel {
+    width: 100%;
+  }
+  .my-row .carousel .img-carousel {
+    height: 30vh;
+  }
+  .card-title-offer {
+    font-size: 20px;
+    text-align: end;
+  }
+  .card-title-new {
+    font-size: 25px;
+    text-align: center;
+  }
+  .card-text-new {
+    font-size: 20px;
+    text-align: center;
+  }
+  .card-title {
+    font-size: 25px;
+    text-align: center;
+  }
+  .card-text {
+    font-size: 20px;
+    text-align: center;
+  }
 }
-/* color del texto del footer */
-.footer {
-    color: seashell;
+.container-products {
+  flex-direction: column;
+  align-items: center;
 }
-/* Subrrallado de h1 y h2 */
-.titulos {
-    text-decoration: underline;
+.container-products .container-product {
+  width: 100%;
+  margin-bottom: 20px;
 }
+.container-products .container-product .img-product {
+  height: 200px;
+}
+
+h1, h2, h3, h5 {
+  font-size: 10px;
+  text-align: center;
+}
+
+p {
+  font-size: 7px;
+}
+
+@media (min-width: 430px) and (max-width: 768px) {
+  .bg-navbar-mr ul {
+    margin-left: 0;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .bg-navbar-mr ul li {
+    padding: 10px;
+    text-align: center;
+  }
+  .bg-navbar-mr ul li a {
+    font-size: 16px;
+  }
+  .my-row .carousel {
+    width: 80%;
+  }
+  .my-row .carousel .img-carousel {
+    height: 35vh;
+  }
+  .card-title-offer {
+    font-size: 30px;
+    text-align: end;
+  }
+  .card-title-new {
+    font-size: 35px;
+    text-align: center;
+  }
+  .card-text-new {
+    font-size: 30px;
+    text-align: center;
+  }
+  .card-title {
+    font-size: 35px;
+    text-align: center;
+  }
+  .card-text {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+.container-products {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container-products .container-product {
+  width: 45%;
+  margin: 10px;
+}
+.container-products .container-product .img-product {
+  height: 250px;
+}
+
+h1, h2, h3, h5 {
+  font-size: 30px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,145 @@
+@use "../utilities/variables";
+
+.card {
+    margin: 10px;
+
+    .card-img {
+        width: 100%;
+        height: 500px;
+    }
+
+    .card-title-offer {
+        font-family: variables.$font;
+        color: variables.$color-card;
+        text-decoration: underline;
+        font-size: 60px;
+        text-align: end;
+    }
+
+    .card-text-offer {
+        font-family: variables.$font;
+        color: variables.$color-card;
+        font-size: 40px;
+        text-align: end;
+    }
+
+    .card-title-new {
+        font-family: variables.$font;
+        color: variables.$color-card;
+        font-size: 60px;
+        text-align: center;
+
+    }
+
+    .card-text-new {
+        font-family: variables.$font;
+        color: variables.$color-card;
+        font-size: 40px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .card-title {
+        font-family: variables.$font;
+        color: variables.$color-card;
+        font-size: 60px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .card-text {
+        font-family: variables.$font;
+        color: variables.$color-card;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .card-offer {
+        font-family: variables.$font;
+        color: variables.$color-card;
+        font-size: 35px;
+        text-align: start;
+        margin-top: 2px;
+    }
+
+}
+
+.container-products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-left: 10px;
+    .container-product {
+        border-radius: 2px;
+
+        .img-product {
+            width: 100%;
+            height: 300px;
+
+            &:hover {
+                transform: scale(1.05);
+                transition: transform 0.3s ease;
+            }
+
+        }
+
+        .card-product {
+            padding: 10px;
+            margin: 10px;
+            .img-offer {
+                @extend .img-product;
+            }
+
+            .card-text-product {
+                font-family: variables.$font;
+                color: rgb(0, 0, 0);
+                font-size: 18px;
+
+            }
+
+            .precio {
+                color: rgb(19, 105, 105);
+                margin: 2px;
+                padding: 2px;
+            }
+            .text-decoration-line-through {
+                @extend .precio
+            }
+            
+        }
+    }
+}
+
+.nosotros {
+    width: 100%;
+    height: 70vh;
+    display: block;
+    margin: 0 auto;
+       
+    &:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+    }
+}
+
+.mapa {
+    width: 100%;
+    height: 70vh;
+    display: block;
+    margin: 0 auto;
+
+    iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+}
+
+.img-medidas {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+
+}

@@ -1,0 +1,13 @@
+@use "../utilities/variables";
+
+footer {
+    background-color: variables.$fondo-color;
+
+    p {
+        font-family: variables.$font;
+        font-size: variables.$main-size;
+        color: aliceblue;
+        text-align: center;
+
+    }
+}

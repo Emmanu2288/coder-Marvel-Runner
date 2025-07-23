@@ -1,0 +1,22 @@
+    .button {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 7px 14px;
+    background-color: rgb(19, 19, 72);
+    border-radius: 1px;
+    &:hover {
+        background-color: rgb(31, 51, 97);
+    }
+   
+}
+.button-offer {
+    @extend .button;
+}
+.button-enviar {
+    @extend .button;
+    background-color: rgb(19, 105, 105);
+    &:hover {
+        background-color: rgb(2, 71, 192);
+    }
+}

@@ -1,0 +1,53 @@
+@use "../utilities/variables";
+
+h1 {
+    font-size: 50px;
+    margin: 20px;
+    font-family: variables.$font;
+    color: variables.$color-text;
+    text-align: center;
+    
+    
+
+
+}
+h2 {
+    font-family: variables.$font;
+    color: variables.$color-text;
+    text-align: center;
+    font-size: 35px;
+    margin: 20px;
+}
+
+h3 {
+   font-family: variables.$font;
+   color: variables.$color-text;
+   text-align: center;
+}
+h5 {
+    color: rgb(0, 0, 0);
+    font-family: variables.$font;
+    text-align: center;
+    font-size: variables.$main-size;
+}
+
+p {
+   color: rgb(25, 24, 24); 
+    font-family: variables.$font;
+    font-size: variables.$main-size;
+    margin: 10px;
+    padding: 8px;
+}
+
+.contacto {
+    padding: 20px;
+    text-align: start;
+    h1 { margin-bottom: 30px;
+        padding-bottom: 30px;
+
+    p {
+        margin: 10px 0;
+    }
+    }
+}
+
