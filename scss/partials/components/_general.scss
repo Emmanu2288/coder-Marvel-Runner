@@ -6,10 +6,7 @@ h1 {
     font-family: variables.$font;
     color: variables.$color-text;
     text-align: center;
-    
-    
-
-
+   
 }
 h2 {
     font-family: variables.$font;
@@ -21,6 +18,11 @@ h2 {
 
 h3 {
    font-family: variables.$font;
+   color: variables.$color-text;
+   text-align: center;
+}
+h4 {
+    font-family: variables.$font;
    color: variables.$color-text;
    text-align: center;
 }
