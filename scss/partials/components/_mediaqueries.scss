@@ -1,282 +1,268 @@
 @media (max-width: 430px) {
+  .bg-navbar-mr {
+    ul {
+      margin-left: 0;
+      justify-content: space-around;
 
+      li {
+        padding: 10px;
+        text-align: center;
 
-    .bg-navbar-mr {
-            ul {
-                margin-left: 0;
-                justify-content: space-around;
-    
-                li {
-                    padding: 10px;
-                    text-align: center;
-    
-                    a {
-                        font-size: 14px;
-                    }
-                }
-            }
+        a {
+          font-size: 14px;
         }
-    
-        .my-row {
-            .carousel {
-                width: 100%;
-                .img-carousel {
-                    height: 55vh;
-                    object-fit: cover;
-                }
-            }
-        }
-    
-        .card {
-
-         .card-title-offer{
-            margin: 30px;
-            padding: 40px;
-            font-size: 30px;
-            text-align: center;
-        }
-
-        .card-text-offer {
-            margin: 10px;
-            padding: 10px;
-            font-size: 20px;
-            text-align: center;
-        }
-        .card-title-new {
-            margin: 10px;
-            padding: 10px;
-            font-size: 30px;
-            text-align: center;
-        }
-        .card-text-new {
-            font-size: 25px;
-            text-align: center;
-        }
-        .card-title {
-            font-size: 30px;
-            text-align: center;
-            margin-top: 40px;
-        }
-        .card-text {
-            font-size: 18px;
-            text-align: center;
-        }
-        .card-img {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-        }
-        }
-
-        .container-products {
-            margin: 5px;
-            .container-product {
-                .card-product {
-.card-text-product {
-            font-size: 13px;
-            text-align: center;
-        }
+      }
     }
-                .img-product {
-                    width: 100%;
-                    height: 370px;
-                    object-fit: cover;
+  }
 
-                }
-            }
-        }
-
-        .card-text-product {
-            font-size: 15px;
-            text-align: center;
-        }
-
-    .img-simbolo {
-        width: 50px;
-        height: 50px;
-    }
-    .nosotros {
+  .my-row {
+    .carousel {
+      width: 100%;
+      .img-carousel {
+        height: 55vh;
         object-fit: cover;
-        height: 33vh;
-
+      }
     }
-    .mapa {
-        height: 50vh;
-            }
-        .img-medidas {
-        width: 100%;
+  }
+
+  .card {
+    .card-title-offer {
+      margin: 30px;
+      padding: 40px;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .card-text-offer {
+      margin: 10px;
+      padding: 10px;
+      font-size: 20px;
+      text-align: center;
+    }
+    .card-title-new {
+      margin: 10px;
+      padding: 10px;
+      font-size: 30px;
+      text-align: center;
+    }
+    .card-text-new {
+      font-size: 25px;
+      text-align: center;
+    }
+    .card-title {
+      font-size: 30px;
+      text-align: center;
+      margin-top: 40px;
+    }
+    .card-text {
+      font-size: 18px;
+      text-align: center;
+    }
+    .card-img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+
+  .container-products {
+    margin: 5px;
+    .container-product {
+      .card-product {
+        .card-text-product {
+          font-size: 13px;
+          text-align: center;
         }
-    h1 {
-        font-size: 30px;
-        text-align: center;
+      }
+      .img-product {
+        width: 100%;
+        height: 370px;
+        object-fit: cover;
+      }
     }
-    h2 {
-        font-size: 25px;
-    }
-    h3 {
-        font-size: 12px;
-        text-align: center;
-    }
-    h4 {
-        font-size: 15px;
-        
-    }
-    h5 {
-        font-size: 20px;
-        text-align: center;
-    }
-    
-    p {
-        font-size: 17px;
-    }
+  }
 
-    .info {
-        font-size: 8px;
-    }
-    .info-trust {
-        display: flex;
-        flex-direction: column;
-    }
-    .footer {
-        font-size: 12px;
-        text-align: center;
-    }
+  .card-text-product {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .img-simbolo {
+    width: 50px;
+    height: 50px;
+  }
+  .nosotros {
+    object-fit: cover;
+    width: 100%;
+    height: 25vh;
+  }
+  .mapa {
+    height: 50vh;
+  }
+  .img-medidas {
+    width: 100%;
+  }
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 12px;
+    text-align: center;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  h5 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  .info {
+    font-size: 8px;
+  }
+  .info-trust {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer {
+    font-size: 12px;
+    text-align: center;
+  }
 }
 
-    @media (min-width: 430px) and (max-width: 768px) {
-        .bg-navbar-mr {
-            ul {
-                margin-left: 0;
-                flex-direction: row;
-                justify-content: space-around;
-    
-                li {
-                    padding: 10px;
-                    text-align: center;
-    
-                    a {
-                        font-size: 16px;
-                    }
-                }
-            }
-        }
-    
-        .my-row {
-            .carousel {
-                width: 80%;
-                .img-carousel {
-                    height: 45vh;
-                }
-            }
-        }
-    
-        .card {
+@media (min-width: 430px) and (max-width: 768px) {
+  .bg-navbar-mr {
+    ul {
+      margin-left: 0;
+      flex-direction: row;
+      justify-content: space-around;
 
-         .card-title-offer{
-            margin: 5px;
-            padding: 5px;
-            font-size: 40px;
-            text-align: end;
-        }
+      li {
+        padding: 10px;
+        text-align: center;
 
-        .card-text-offer {
-            margin: 35px;
-            padding: 35px;
-            font-size: 35px;
-            text-align: center;
+        a {
+          font-size: 16px;
         }
-        .card-title-new {
-            margin: 15px;
-            padding: 15px;
-            font-size: 40px;
-            
-        }
-        .card-text-new {
-            font-size: 25px;
-            text-align: center;
-            padding-top: 12vh;
-        }
-        .card-title {
-            font-size: 40px;
-                    
-        }
-        .card-text {
-            font-size: 25px;            
-        }
-        .card-img {
-            width: 100%;
-            height: 475px;
-            object-fit: cover;
-        }
-        }
-
-        .container-products {
-            margin: 5px;
-            .container-product {
-                .card-product {
-.card-text-product {
-            font-size: 15px;
-            
-        }
+      }
     }
-                .img-product {
-                    width: 100%;
-                    height: 250px;
-                  
+  }
 
-                }
-            }
-        }
-
-        .card-text-product {
-            font-size: 15px;
-            text-align: center;
-        }
-
- .img-simbolo {
-        height: 60px;
-        object-fit: contain;
-    }
-    
-    .nosotros {
-        object-fit: cover;
+  .my-row {
+    .carousel {
+      width: 80%;
+      .img-carousel {
         height: 45vh;
+      }
+    }
+  }
 
+  .card {
+    .card-title-offer {
+      margin: 5px;
+      padding: 5px;
+      font-size: 40px;
+      text-align: end;
     }
-    .mapa {
-        height: 35vh;
-            }
-        .img-medidas {
-        width: 60%;
-        }
 
-        h1 {
-        font-size: 35px;
-        
+    .card-text-offer {
+      margin: 35px;
+      padding: 35px;
+      font-size: 35px;
+      text-align: center;
     }
-     h2 {
-        font-size: 30px;
+    .card-title-new {
+      margin: 15px;
+      padding: 15px;
+      font-size: 40px;
     }
-    h3 {
-        font-size: 15px;
-        
+    .card-text-new {
+      font-size: 25px;
+      text-align: center;
+      padding-top: 12vh;
     }
-    h4 {
-        font-size: 25px;
-        
+    .card-title {
+      font-size: 40px;
     }
-    h5 {
-        font-size: 30px;
-        }
+    .card-text {
+      font-size: 25px;
+    }
+    .card-img {
+      width: 100%;
+      height: 475px;
+      object-fit: cover;
+    }
+  }
 
-        p {
-        font-size: 20px;
-    }
-.info {
-        font-size: 10px;
-    }
-    
-     .footer {
-        font-size: 20px;
+  .container-products {
+    margin: 5px;
+    .container-product {
+      .card-product {
+        .card-text-product {
+          font-size: 15px;
         }
+      }
+      .img-product {
+        width: 100%;
+        height: 250px;
+      }
+    }
+  }
+
+  .card-text-product {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .img-simbolo {
+    height: 60px;
+    object-fit: contain;
+  }
+
+  .nosotros {
+    object-fit: cover;
+    height: 30vh;
+    width: 100%;
+  }
+  .mapa {
+    height: 35vh;
+  }
+  .img-medidas {
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+  h5 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+  .info {
+    font-size: 10px;
+  }
+
+  .footer {
+    font-size: 20px;
+  }
 }
